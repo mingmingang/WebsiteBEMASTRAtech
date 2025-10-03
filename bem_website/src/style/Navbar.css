@@ -1,6 +1,6 @@
 /* src/components/Navbar/Navbar.css */
 .navbar-container {
-    background-color: rgba(13, 75, 16, 0.2);
+    background:  linear-gradient(to right, #54BF84, #00854F);
     padding: 15px 0;
     position: fixed;
     width: 100%;
@@ -62,11 +62,11 @@
 }
 
 .nav-links li a:hover {
-    color: #e87a5d;
+    color: #5de899;
 }
 
 .login-btn {
-    background-color: #e87a5d;
+    background-color: #5de899;
     color: white;
     padding: 10px 25px;
     border: none;
@@ -78,5 +78,5 @@
 }
 
 .login-btn:hover {
-    background-color: #d66a4d;
+    background-color: #5de899;
 }

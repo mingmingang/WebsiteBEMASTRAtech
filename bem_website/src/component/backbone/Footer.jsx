@@ -17,7 +17,7 @@ function Footer() {
             </div>
           </div>
           <p className="about-text">
-            Badan Eksekutif Mahasiswa (BEM) Universitas Airlangga diartikan sebagai media gerakan mahasiswa yang memiliki peran strategis untuk mewadahi aspirasi serta mendorong perubahan yang progresif bagi seluruh civitas akademika.
+            Badan Eksekutif Mahasiswa (BEM) ASTRAtech diartikan sebagai media gerakan mahasiswa yang memiliki peran strategis untuk mewadahi aspirasi serta mendorong perubahan yang progresif bagi seluruh civitas akademika.
           </p>
         </div>
 
@@ -35,9 +35,9 @@ function Footer() {
 
         <div className="footer-section contact">
           <h3 className="footer-title">Sekretariat</h3>
-          <p><strong>Sekretariat BEM UNAIR</strong></p>
-          <p>Kampus C Universitas Airlangga<br />Mulyorejo, Surabaya 60115</p>
-          <p>info@bem.unair.ac.id</p>
+          <p><strong>Sekretariat BEM ASTRAtech</strong></p>
+          <p>Kampus Cikarang<br />Cikarang Selatan, Kab. Bekasi 17530</p>
+          <p>bem.astratech</p>
           <div className="social-icons">
             <a href="#" aria-label="Location"><FaMapMarkerAlt /></a>
             <a href="#" aria-label="Email"><FaEnvelope /></a>

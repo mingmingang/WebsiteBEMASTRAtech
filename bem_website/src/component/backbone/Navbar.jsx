@@ -18,15 +18,14 @@ function Navbar() {
         </div>
         <nav>
           <ul className="nav-links">
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#">Tentang Kami</a></li>
+            <li><a href="/home">Beranda</a></li>
+            <li><a href="/tentang">Tentang Kami</a></li>
             <li><a href="#">Galeri</a></li>
             <li><a href="#">Artikel</a></li>
             <li><a href="#">Hubungi Kami</a></li>
             <li><a href="#">Layanan</a></li>
           </ul>
         </nav>
-        <a href="#" className="login-btn">Login</a>
       </div>
     </header>
   );

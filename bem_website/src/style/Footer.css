@@ -1,6 +1,6 @@
 /* src/components/Footer/Footer.css */
 .footer-container {
-    background-color: #1a2a4a;
+    background: linear-gradient(to right, rgba(84, 191, 132, 0.5), rgba(0, 133, 79, 0.5));
     color: #c7cce1;
     padding: 60px 20px 20px 20px;
 }
@@ -74,7 +74,7 @@
 }
 
 .footer-section.links a:hover {
-    color: #e87a5d;
+    color: #5de899;
 }
 
 .footer-section.contact p {
@@ -95,7 +95,7 @@
 }
 
 .social-icons a:hover {
-    color: #e87a5d;
+    color: #5de899;
 }
 
 
@@ -110,5 +110,5 @@
 }
 
 .footer-bottom .heart {
-    color: #e85d5d;
+    color: #5de899;
 }
