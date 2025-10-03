@@ -164,7 +164,7 @@
 }
 
 .tentang-section:nth-child(even) {
-  background: #ffffff;
+  background: linear-gradient(to right, #54BF84, #00854F);
 }
 
 .tentang-section .container {
@@ -194,7 +194,7 @@
 .visi, .misi {
   padding: 20px;
   text-align: left;
-  background: #fff;
+  background: linear-gradient(to right, #54BF84, #00854F);
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
