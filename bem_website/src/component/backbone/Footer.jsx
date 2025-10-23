@@ -23,7 +23,7 @@ function Footer() {
 
         <div className="footer-section links">
           <h3 className="footer-title">Navigasi</h3>
-          <ul>
+          <ul className="about-text">
             <li><a href="#">Beranda</a></li>
             <li><a href="#">Tentang Kami</a></li>
             <li><a href="#">Galeri</a></li>

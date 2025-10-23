@@ -1,15 +1,75 @@
 
 .hero-section {
-    background-image: linear-gradient(rgba(7, 63, 10, 0.6), rgba(159, 244, 172, 0.05)), url('../assets/all_team.jpg');
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  animation: fadeSlide  12s infinite ease-in-out;
+  transition: background-image 2s ease-in-out;
 }
+
+/* Slideshow dengan 3 gambar */
+@keyframes fadeSlide  {
+  0% {
+    background-image: linear-gradient(rgba(7, 63, 10, 0.6), rgba(159, 244, 172, 0.05)), url('../assets/all_teams.jpg');
+  }
+  33% {
+    background-image: linear-gradient(rgba(7, 63, 10, 0.6), rgba(159, 244, 172, 0.05)), url('../assets/ASTRAtech.jpg');
+  }
+  66% {
+    background-image: linear-gradient(rgba(7, 63, 10, 0.6), rgba(159, 244, 172, 0.05)), url('../assets/all_teams.jpg');
+  }
+  100% {
+    background-image: linear-gradient(rgba(7, 63, 10, 0.6), rgba(159, 244, 172, 0.05)), url('../assets/ASTRAtech.jpg');
+  }
+}
+
+.video-section {
+  background-image: url('../assets/bg3.png');
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+  height: 120rem;
+
+}
+
+.video-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.video-section .section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* rasio 16:9 */
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.section-title span {
+  color: #5de899;
+}
+
 
 .hero-section2 {
     background-image: url('../assets/background.png');
@@ -49,7 +109,7 @@
 }
 
 .hero-title .highlight {
-    color: #3A5A40; /* Warna teks yang sudah ada */
+    color: #37755e; /* Warna teks yang sudah ada */
     letter-spacing: -6px; /* Membuat jarak antar huruf lebih rapat (-4 pixel) */
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
     -webkit-text-stroke-width: 2px; /* Menentukan ketebalan garis tepi */
@@ -153,18 +213,22 @@
 .text-outline {
     color: white; /* Mengatur warna isi teks menjadi putih */
     -webkit-text-stroke-width: 3px; /* Menentukan ketebalan garis tepi */
-    -webkit-text-stroke-color: #3A5A40; /* Mengatur warna garis tepi sesuai permintaan */
+    -webkit-text-stroke-color: #37755e; /* Mengatur warna garis tepi sesuai permintaan */
 }
 
 /* --- SECTION UMUM TENTANG --- */
 .tentang-section {
-  padding: 80px 20px;
+  padding-top: 65px;
+  padding-right: 10px;
+  padding-bottom: 65px;
+  padding-left: 10px;
   background: #f9f9f9;
   text-align: center;
 }
 
 .tentang-section:nth-child(even) {
-  background: linear-gradient(to right, #54BF84, #00854F);
+  background: linear-gradient(to left, #377567, #0D584D);;
+  background-image: url('../assets/bg2.png');
 }
 
 .tentang-section .container {
@@ -175,8 +239,8 @@
 .section-title {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #3A5A40;
-  margin-bottom: 40px;
+  color: #ffffff;
+  margin-top: -20px;
   position: relative;
 }
 
@@ -185,7 +249,7 @@
   display: block;
   width: 80px;
   height: 4px;
-  background: #3A5A40;
+  background: #ffffff;
   margin: 15px auto 0;
   border-radius: 2px;
 }

@@ -4,6 +4,7 @@ import Navbar from './component/backbone/Navbar';
 import Home from './component/pages/Home';
 import Footer from './component/backbone/Footer';
 import Tentang from "./component/pages/Tentang";
+import DivisiKabinet from "./component/pages/DivisiKabinet";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="/" element={<Home />} /> 
             <Route path="/Home" element={<Home />} />
             <Route path="/Tentang" element={<Tentang />} />
+            <Route path="/divisi-kabinet" element={<DivisiKabinet />} />
           </Routes>
         </main>
         <Footer /> 

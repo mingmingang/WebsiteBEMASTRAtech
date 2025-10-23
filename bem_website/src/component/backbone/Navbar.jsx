@@ -20,7 +20,7 @@ function Navbar() {
           <ul className="nav-links">
             <li><a href="/home">Beranda</a></li>
             <li><a href="/tentang">Tentang Kami</a></li>
-            <li><a href="#">Galeri</a></li>
+            <li><a href="/divisi-kabinet">Divisi Kabinet</a></li>
             <li><a href="#">Artikel</a></li>
             <li><a href="#">Hubungi Kami</a></li>
             <li><a href="#">Layanan</a></li>

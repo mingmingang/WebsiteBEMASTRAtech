@@ -1,6 +1,8 @@
 /* src/components/Navbar/Navbar.css */
 .navbar-container {
-    background:  linear-gradient(to right, #54BF84, #00854F);
+    background:  linear-gradient(to right, #377567, #0D584D);
+    /* background:  linear-gradient(to right, #54BF84, #00854F); */
+
     padding: 15px 0;
     position: fixed;
     width: 100%;

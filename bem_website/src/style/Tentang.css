@@ -1,0 +1,122 @@
+.tentang-section {
+  background-image: url('../assets/bg3.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.tentang-container {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.tentang-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 20px 0px 0px 0px;
+
+}
+
+.tentang-subtitle {
+  font-size: 1.9rem;
+  display: inline-block;
+  padding: 0px 0px 0px 0px;
+  border-radius: 5px;
+  margin-top: 0px;
+}
+
+.tentang-subtitle::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #ffffff;
+  margin: 5px auto 0;
+  border-radius: 2px;
+}
+
+
+.tentang-image img {
+  width: 500px;
+  margin: -50px 0px 10px 0px;
+}
+
+.tentang-desc {
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.visi-section {
+  margin-top: 60px;
+}
+
+.visi-section h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.visi-icon {
+  width: 50px;
+  margin: 15px auto;
+}
+
+.visi-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.misi-section {
+  margin-top: 60px;
+}
+
+.misi-section h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.misi-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.misi-item {
+  width: 220px;
+  text-align: center;
+}
+
+.misi-item img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.misi-item p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+
+/* Responsif */
+@media (max-width: 768px) {
+  .tentang-desc {
+    text-align: center;
+  }
+
+  .misi-item {
+    width: 90%;
+  }
+}

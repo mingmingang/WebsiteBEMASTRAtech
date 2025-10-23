@@ -1,101 +1,64 @@
 import React from 'react';
-import '../../style/Home.css';
-import logo from "../../assets/logo.png";
+import '../../style/Tentang.css';
+import logo from "../../assets/logo_bem.png";
+// import visiIcon from "../../assets/visi.png"; // kamu bisa ganti dengan icon lain
+// import misi1 from "../../assets/misi1.png";
+// import misi2 from "../../assets/misi2.png";
+// import misi3 from "../../assets/misi3.png";
+// import misi4 from "../../assets/misi4.png";
 
 function Tentang() {
   return (
-    <>
-      {/* --- HERO SECTION TENTANG --- */}
-      <section className="hero-section-2">
-        <div className="left-content">
-          <img src={logo} alt="Dharmatara Logo" />
-          <div className="logo-caption">
-            <h1>KABINET</h1>
-            <h1>DHARMATARA</h1>
-          </div>
-        </div>
-        <div className="right-content">
-          <p className="welcome-tag">Selamat Datang</p>
-          <h2>BEM ASTRAtech 2025</h2>
-          <h1>Kabinet Dharmatara</h1>
-          <p className="description">
-            Badan Eksekutif Mahasiswa Politeknik Astra merupakan
-            lembaga eksekutif kampus yang menjadi wadah bagi
-            mahasiswa Politeknik Astra dengan bersinergi dalam
-            menyalurkan kebermanfaatan yang nyata.
-          </p>
-        </div>
-      </section>
+    <section className="tentang-section">
+      <div className="tentang-container">
+        <h2 className="tentang-title">TENTANG KAMI</h2>
+        <h2 className="tentang-subtitle">BEM ASTRAtech!</h2>
 
-      {/* --- VISI & MISI SECTION --- */}
-      <section className="tentang-section visi-misi">
-        <div className="container">
-          <h2 className="section-title">Visi & Misi</h2>
-          <div className="content-grid">
-            <div className="visi">
-              <h3>Visi</h3>
-              <p>
-                Mewujudkan BEM ASTRAtech sebagai wadah aspirasi,
-                pengembangan diri, dan sinergi mahasiswa untuk
-                menciptakan kebermanfaatan nyata bagi kampus dan masyarakat.
-              </p>
-            </div>
-            <div className="misi">
-              <h3>Misi</h3>
-              <ul>
-                <li>Mengembangkan potensi dan kompetensi mahasiswa.</li>
-                <li>Membangun hubungan harmonis antarorganisasi kampus.</li>
-                <li>Menjadi mitra strategis bagi pihak internal dan eksternal.</li>
-                <li>Melaksanakan program kerja yang berdampak positif.</li>
-              </ul>
-            </div>
-          </div>
+        <div className="tentang-image">
+          <img src={logo} alt="Logo BEM ASTRAtech" />
         </div>
-      </section>
 
-      {/* --- SEJARAH / DESKRIPSI --- */}
-      <section className="tentang-section sejarah">
-        <div className="container">
-          <h2 className="section-title">Sejarah Singkat</h2>
+        <p className="tentang-desc">
+          Merupakan organisasi mahasiswa di tingkat pusat atau universitas yang didirikan pada tanggal 6 November 1999. 
+          BEM ASTRAtech memiliki kewajiban menjalankan fungsi EKSEKUTIF di tingkat pusat dengan kementerian-kementerian di dalamnya,
+          yang bertujuan untuk melayani dan menjembatani mahasiswa dengan pihak universitas dan instansi terkait yang 
+          dilaksanakan dalam program kerja tahunan serta program tugas harian.
+        </p>
+
+        {/* --- VISI --- */}
+        <div className="visi-section">
+          <h3>VISI</h3>
+          {/* <img src={visiIcon} alt="Visi Icon" className="visi-icon" /> */}
           <p>
-            BEM Politeknik Astra telah hadir sebagai motor penggerak kegiatan
-            mahasiswa sejak awal berdirinya kampus. Dengan berbagai kabinet yang
-            lahir setiap periode, kini Kabinet Dharmatara 2025 hadir dengan semangat
-            baru untuk melanjutkan perjuangan dan memberikan kontribusi nyata
-            dalam bidang akademik, sosial, maupun pengabdian masyarakat.
+            Menjadikan BEM ASTRAtech sebagai lembaga eksekutif yang mewujudkan dampak nyata secara adaptif dan progresif 
+            bagi pihak internal dan/atau eksternal Politeknik ASTRA.
           </p>
         </div>
-      </section>
 
-      {/* --- STRUKTUR ORGANISASI (contoh grid anggota) --- */}
-      <section className="tentang-section struktur">
-        <div className="container">
-          <h2 className="section-title">Struktur Organisasi</h2>
-          <div className="team-grid">
-            <div className="team-card">
-              <img src={logo} alt="Ketua BEM" />
-              <h3>Nama Ketua</h3>
-              <p>Ketua BEM</p>
+        {/* --- MISI --- */}
+        <div className="misi-section">
+          <h3>MISI</h3>
+          <div className="misi-list">
+            <div className="misi-item">
+              {/* <img src={misi1} alt="Misi 1" /> */}
+              <p>Meningkatkan efektivitas dan efisiensi dalam pengelolaan organisasi BEM ASTRAtech.</p>
             </div>
-            <div className="team-card">
-              <img src={logo} alt="Wakil Ketua" />
-              <h3>Nama Wakil</h3>
-              <p>Wakil Ketua</p>
+            <div className="misi-item">
+              {/* <img src={misi2} alt="Misi 2" /> */}
+              <p>Menjalin hubungan secara interaktif dan sinergis dengan pihak internal dan/atau eksternal Politeknik ASTRA.</p>
             </div>
-            <div className="team-card">
-              <img src={logo} alt="Sekretaris" />
-              <h3>Nama Sekretaris</h3>
-              <p>Sekretaris</p>
+            <div className="misi-item">
+              {/* <img src={misi3} alt="Misi 3" /> */}
+              <p>Mengakomodasikan aspirasi mahasiswa secara aktif dan kolaboratif.</p>
             </div>
-            <div className="team-card">
-              <img src={logo} alt="Bendahara" />
-              <h3>Nama Bendahara</h3>
-              <p>Bendahara</p>
+            <div className="misi-item">
+              {/* <img src={misi4} alt="Misi 4" /> */}
+              <p>Melaksanakan kegiatan secara profesional berbasis sistem yang berlandaskan kedisiplinan dan kekeluargaan.</p>
             </div>
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }
 

@@ -1,7 +1,7 @@
 /* src/components/Footer/Footer.css */
 .footer-container {
     background: linear-gradient(to right, rgba(84, 191, 132, 0.5), rgba(0, 133, 79, 0.5));
-    color: #c7cce1;
+    color: white;
     padding: 60px 20px 20px 20px;
 }
 
@@ -40,12 +40,13 @@
 
 .footer-section.about .logo-text .subtitle {
     font-size: 0.9em;
-    color: #ccc;
+    color: #ffffff;
 }
 
 .footer-section.about .about-text {
     font-size: 0.9rem;
     line-height: 1.6;
+    color: #ffffff;
 }
 
 /* Bagian Navigasi & Sekretariat */
@@ -68,7 +69,7 @@
 }
 
 .footer-section.links a {
-    color: #c7cce1;
+    color: white;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -105,7 +106,7 @@
     margin: 0 auto;
     text-align: center;
     padding-top: 20px;
-    border-top: 1px solid #3a4a6b;
+    border-top: 1px solid white;
     font-size: 0.9rem;
 }
 
