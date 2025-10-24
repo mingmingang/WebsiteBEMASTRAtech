@@ -19,7 +19,7 @@ function Home() {
       {/* --- TENTANG SECTION --- */}
       <section className="tentang-section">
         <div className="container">
-          <h2 className="section-title">Halo Insan ASTRAtech!</h2>
+          <h2 className="section-title">Halo Insan <span>ASTRAtech</span> !</h2>
           <p className="section-description">
             Kalian dapat menemukan informasi terbaru mengenai <b>BEM ASTRAtech</b> pada halaman ini.
           </p>
@@ -36,7 +36,7 @@ function Home() {
       {/* --- VIDEO PROFILE SECTION --- */}
       <section className="video-section">
         <div className="video-container">
-          <h2 className="section-title">Video Profile BEM ASTRAtech</h2>
+          <h2 className="section-title">Video Profile <span>BEM ASTRAtech</span></h2>
           <div className="video-wrapper">
             <iframe width="100%"
               height="480" 

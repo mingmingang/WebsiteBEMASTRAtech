@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../style/Navbar.css';
-import logoUrl from "../../assets/dharmatara.png"
+import logoUrl from "../../assets/logo_bem.png"
 
 // Anda bisa meletakkan path logo di sini atau mengimpornya jika menggunakan bundler seperti Create React App
 
@@ -21,9 +21,8 @@ function Navbar() {
             <li><a href="/home">Beranda</a></li>
             <li><a href="/tentang">Tentang Kami</a></li>
             <li><a href="/divisi-kabinet">Divisi Kabinet</a></li>
-            <li><a href="#">Artikel</a></li>
-            <li><a href="#">Hubungi Kami</a></li>
-            <li><a href="#">Layanan</a></li>
+            <li><a href="/ormawa">Ormawa</a></li>
+            {/* <li><a href="#">Layanan</a></li> */}
           </ul>
         </nav>
       </div>

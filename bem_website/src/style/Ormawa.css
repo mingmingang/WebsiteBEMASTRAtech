@@ -1,0 +1,154 @@
+.ormawa-section {
+  background-image: url('../assets/bg3.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.ormawa-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ormawa-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
+.ormawa-title span {
+  color: #54BF84;
+}
+
+.ormawa-title::after {
+  content: '';
+  display: block;
+  width: 120px;
+  height: 4px;
+  background: #ffffff;
+  margin: 5px auto 0;
+  border-radius: 2px;
+}
+
+.ormawa-subtitle {
+  font-size: 1.2rem;
+  color: #ffff;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+/* --- GRID --- */
+.ormawa-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  justify-items: center;
+}
+
+/* --- CARD --- */
+.ormawa-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  max-width: 380px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.ormawa-card:hover {
+  transform: translateY(-6px);
+}
+
+/* --- IMAGE FIXED SIZE (5:4 ratio in px) --- */
+.ormawa-image {
+  position: relative;
+  width: 380px;   /* lebar tetap */
+  height: 310px;  /* tinggi tetap */
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: #1a1a1a;
+  margin: 0 auto;
+}
+
+.ormawa-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.ormawa-card:hover img {
+  transform: scale(1.1);
+}
+
+/* --- OVERLAY --- */
+.ormawa-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  padding: 20px;
+  text-align: center;
+}
+
+.ormawa-card:hover .ormawa-overlay {
+  opacity: 1;
+}
+
+.ormawa-overlay h3 {
+  color: #54BF84;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.ormawa-btn {
+  display: inline-block;
+  background-color: #54BF84;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.ormawa-btn:hover {
+  background-color: #3a8b61;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  .ormawa-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ormawa-image {
+    width: 200px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ormawa-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ormawa-image {
+    width: 220px;
+    height: 176px;
+  }
+}

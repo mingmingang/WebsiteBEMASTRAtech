@@ -28,8 +28,8 @@
 }
 
 .logo img {
-    height: 40px;
-    margin-right: 15px;
+    height: 75px;
+    margin-right: 10px;
 }
 
 .logo-text {
@@ -45,7 +45,7 @@
 
 .logo-text .subtitle {
     font-size: 0.9em;
-    color: #ccc;
+    color: #ffff;
 }
 
 .nav-links {
